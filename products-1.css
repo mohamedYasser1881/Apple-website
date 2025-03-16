@@ -1,0 +1,108 @@
+/* Resetting default margin and padding */
+
+body,
+h1,
+h2,
+p,
+img,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Setting default font family and size */
+
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* Styling header */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Styling logo */
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+
+/* Styling container */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* Styling individual product box */
+
+.box {
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.box :hover {
+    scale: (1.1);
+}
+
+
+/* Styling product image */
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Styling product title */
+
+.box h2 {
+    margin-top: 10px;
+}
+
+
+/* Styling product price */
+
+.box span {
+    font-weight: bold;
+    color: #2b00ff;
+    display: block;
+    margin-top: 5px;
+}
+
+
+/* Styling product link */
+
+.box a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.h1 .box a:hover {
+    background-color: #0056b3;
+}
